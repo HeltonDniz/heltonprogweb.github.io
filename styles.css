@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:flex-start
+}  
+
+
+.formulario_bloco{
+    border: 3px solid black;
+    padding: 1rem;
+    max-width: 750px;
+    background-color: rgb(160, 160, 160);
+    margin-left: 5rem;
+
+}
+
+.bloco1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.legenda {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.nome {
+    width: 50%;
+}
+
+.nota1 {
+    width: 15%;
+}
+.nota2 {
+    width: 15%;
+}
+.nota3 {
+    width: 15%;
+}
+
+label {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.submit {
+    width: 15%;
+}
+
+.listaAlunos {
+    display: flex;
+    flex-direction: column;
+}
+
+.ulAluno {
+    padding: 2rem;
+    border: 3px solid black;
+    margin-left: 0.5rem;
+    text-decoration: none;
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.liMatricula {
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+   
+
+}
+.liNota{
+    padding-bottom: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+#lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    margin-left: 2rem;
+}
+
+.botao {
+    margin-bottom: 1rem;
+}
